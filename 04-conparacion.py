@@ -1,4 +1,5 @@
 # todo conparacion signos 
+# todo signos de comparacion de variables sirven mayormente en numeros para ver si un valor es igual mayor o no es igual 
 
 num =  1 
 num2 =  2
