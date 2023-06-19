@@ -38,19 +38,4 @@ equipo = {"Porteros": portero , "Delanteros" : delanteros , "Defensas" : defensa
 for dato,valor in equipo.items() : 
     print(dato ,":" ,valor)
 
-# todo ahora viene lo mio 
-print("\n")
-while True : 
-    menu = """
-    1 modificar 
-    2 eliminar bibloteca completa alv 
-    """
-    print ("Lee las opciones y escoje la de tu agrado : ")
-    print(menu)
-    op = int(input("Digita tu opcion -> "))
-    if op == 1 : 
-        # todo se elimina todo alv 
-        equipo.clear()
-        for dato,valor in equipo.items() : 
-            print(dato , ":" , valor)
 
