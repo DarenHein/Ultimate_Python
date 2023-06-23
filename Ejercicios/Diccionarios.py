@@ -29,10 +29,17 @@ for llave,valor in contactos.items():
     print(llave,valor)
 
 #Actualiza el nuemro de cualquier elemnto 
+print("ejercicio 3 ")
 contactos["Kelly"] = 588265612
 
 for llave,dato in contactos.items() : 
     print(llave,dato)
+
+#Mostrar todos lo elementos restantes 
+for llave,dato in contactos.items() : 
+    print(llave,dato)
+
+
 
 
 
