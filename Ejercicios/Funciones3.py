@@ -20,9 +20,9 @@ def agregar() :
         print("2 no <")
         op = (int(input("Digita tu opcion -> ")))
         if op == 1 :
-            bandera = True 
-        elif op == 2 : 
             bandera = False
+        elif op == 2 : 
+            bandera = True
 
     for llave , dato in dic.items() : 
         print ( llave , dato )
