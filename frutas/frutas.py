@@ -39,7 +39,7 @@ def caja():
         if op == 1 : 
             print("GRACIAS POR SU COMPRA ")
             nota = open('nota.txt' , 'w')
-            nota.write('''
+            nota.write(f'''
              TICKET GRACIAS POR TU COMPRA :D 
        -------------------------------------------------------------------  
               Product      |              VENTA                 
@@ -64,7 +64,7 @@ def caja():
         if op == 1 : 
             print("GRACIAS POR SU COMPRA ")
             nota = open('nota.txt' , 'w')
-            nota.write('''
+            nota.write(f'''
              TICKET GRACIAS POR TU COMPRA :D 
        -------------------------------------------------------------------  
               Product      |              VENTA                 
@@ -91,7 +91,7 @@ def caja():
         if op == 1 : 
             print("GRACIAS POR SU COMPRA ")
             nota = open('nota.txt' , 'w')
-            nota.write('''
+            nota.write(f'''
              TICKET GRACIAS POR TU COMPRA :D 
        -------------------------------------------------------------------  
               Product      |              VENTA                 
@@ -119,7 +119,7 @@ def caja():
         if op == 1 : 
             print("GRACIAS POR SU COMPRA ")
             nota = open('nota.txt' , 'w')
-            nota.write('''
+            nota.write(f'''
              TICKET GRACIAS POR TU COMPRA :D 
        -------------------------------------------------------------------  
               Product      |              VENTA                 
@@ -192,6 +192,7 @@ while bandera :
         print("Compra agregada al carrito :D en el menu principal puedes checar tu carrito ")
         caja()
     elif op == 2 : 
+        limpiar_pantalla()
         print('''
 
   _   __                __                       
@@ -208,6 +209,7 @@ while bandera :
         print("Compra agregada al carrito :D en el menu principal puedes checar tu carrito ")
         caja()
     elif op == 3 : 
+        limpiar_pantalla()
         print('''
 
                          __           
@@ -225,6 +227,7 @@ while bandera :
         caja()
 
     elif op == 4 : 
+        limpiar_pantalla()
         print('''
 
   ____ ___    ___  ___ _
