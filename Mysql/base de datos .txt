@@ -1,0 +1,9 @@
+CREATE DATABASE utc; 
+USE utc; 
+CREATE TABLE materias(
+	id int AUTO_INCREMENT PRIMARY KEY,
+    nueva varchar(50),
+    numero varchar(50)
+);
+SELECT * FROM materias; 
+INSERT INTO materias (nueva,numero) VALUES("español","23"); 
